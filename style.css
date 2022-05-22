@@ -1,0 +1,29 @@
+body{
+    margin: 0 5% 0 5%;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div{
+    padding: 5px;
+}
+
+
+#nav li{
+    display: inline-block;
+}
+#main{
+    margin-right: 150px;
+}
+aside{
+    float:right;
+    position: sticky;
+    top:5%;
+}
+section{
+    border-style: solid;
+    margin-bottom: 5px;
+
+}
+#cit{
+    padding: 15px;
+}
