@@ -7,23 +7,22 @@ div{
     padding: 5px;
 }
 
+h3{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #nav li{
     display: inline-block;
 }
-#main{
-    margin-right: 150px;
-}
-aside{
+#footer{
     float:right;
-    position: sticky;
-    top:5%;
 }
-section{
-    border-style: solid;
-    margin-bottom: 5px;
-
-}
-#cit{
-    padding: 15px;
+aside li{
+    list-style-type:square;
 }
