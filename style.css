@@ -1,10 +1,9 @@
 body{
-    margin: 0 5% 0 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 16px;
     font-size: large;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-div{
-    padding: 5px;
 }
 
 h3{
@@ -17,12 +16,59 @@ img{
     margin-right: auto;
 }
 
-#nav li{
-    display: inline-block;
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
 }
-#footer{
-    float:right;
+#nav li{
+    float:left
+}
+#nav li a:hover{
+    background-color: darkcyan;
+}
+#nav a{
+    display: block;
+    padding: 8px;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#about a{
+    background-color: cyan;
+    color: black;
+}
+#active{
+    background-color: darkcyan;
+}
+
+
+
+aside{
+    padding: 16px;
+}
+#aside {
+    width: 150px;
+    border-style: solid;
+    padding: 16px;
 }
 aside li{
     list-style-type:square;
+}
+
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+
+
+#footer{
+    float:right;
 }
